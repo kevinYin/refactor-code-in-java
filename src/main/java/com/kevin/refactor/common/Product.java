@@ -2,6 +2,7 @@ package com.kevin.refactor.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Builder;
 
 import java.util.Date;
@@ -16,6 +17,7 @@ import java.util.Date;
 @Builder
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Product {
 
     private int id;
@@ -29,4 +31,11 @@ public class Product {
     private Date createTime;
 
     private int ownerId;
+
+    public Product(int id, int price, String name) {
+        this.id = id;
+        this.price = price;
+        this.name = name;
+    }
+
 }
