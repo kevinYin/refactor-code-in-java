@@ -32,6 +32,8 @@ public class Product {
 
     private int ownerId;
 
+    private boolean isNewProduct;
+
     public Product(int id, int price, String name) {
         this.id = id;
         this.price = price;
