@@ -8,7 +8,7 @@ package com.kevin.refactor.method;
  *
  * @author liangguanglong 17/4/3
  */
-public class LoopRelaceIf {
+public class LoopReplaceIf {
 
     /**
      * 差的写法
