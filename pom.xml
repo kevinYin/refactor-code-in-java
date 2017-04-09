@@ -8,7 +8,7 @@
     <name>refactor-code-in-java</name>
     <url>http://maven.apache.org</url>
     <dependencies>  
-<!-- 第三方的依赖 -->      
+<!-- 第三方的依赖 rebase -->      
   <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
